@@ -33,7 +33,7 @@ pip install fastapi tortoise-orm python-jose bcrypt fastapi-mail uvicorn
 uvicorn main:app --reload
 ```
 
-API docs available at `http://localhost:8000/docs` (Swagger UI).
+FastAPI auto-generates interactive API documentation (Swagger UI) at `http://localhost:8000/docs` when running, letting you test all endpoints directly from the browser.
 
 ## License
 
